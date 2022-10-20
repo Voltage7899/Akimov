@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "36783525424",
+    "firebase_url": "https://akimov-54726-default-rtdb.firebaseio.com",
+    "project_id": "akimov-54726",
+    "storage_bucket": "akimov-54726.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36783525424:android:2d06a58b4ac9e42bce27f5",
+        "android_client_info": {
+          "package_name": "com.company.akimov"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36783525424-jkdfui4s8nb23v2chlur8morv2su4q5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.akimov",
+            "certificate_hash": "fe4e9bc1c7296759fc9245eed3eb89e82f4db492"
+          }
+        },
+        {
+          "client_id": "36783525424-vpicdedg6nslb5govukcle7d6uo7upgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXdFY_m0xrpaDAwxbKSwLPh10Hqqz97dI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36783525424-vpicdedg6nslb5govukcle7d6uo7upgm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
