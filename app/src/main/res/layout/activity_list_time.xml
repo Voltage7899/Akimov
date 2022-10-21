@@ -7,6 +7,7 @@
     tools:context=".ListTime">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:background="#F4A460"
         android:id="@+id/recItem"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

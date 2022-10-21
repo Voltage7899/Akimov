@@ -12,21 +12,25 @@
         android:background="#F4A460">
 
         <androidx.appcompat.widget.LinearLayoutCompat
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:background="@color/white"
+            android:background="#7FFFD4"
             android:orientation="vertical">
 
             <EditText
                 android:id="@+id/seOt"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="35dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
+                android:background="@color/white"
                 android:ems="10"
                 android:hint="Откуда"
                 android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.497"
@@ -37,12 +41,15 @@
             <EditText
                 android:id="@+id/seKu"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="35dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
+                android:background="@color/white"
                 android:ems="10"
                 android:hint="Куда"
                 android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.497"
@@ -53,12 +60,16 @@
             <EditText
                 android:id="@+id/seData"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="35dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
+
+                android:background="@color/white"
                 android:ems="10"
                 android:hint="Дата"
                 android:inputType="date"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.497"
@@ -67,11 +78,13 @@
                 app:layout_constraintVertical_bias="0.345" />
 
             <Button
+
                 android:id="@+id/find"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
+                android:background="#FF6347"
                 android:text="Найти"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -84,6 +97,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
+                android:background="#FF6347"
                 android:text="Панель управления"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

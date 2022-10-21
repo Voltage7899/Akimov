@@ -21,13 +21,19 @@ class Sign : AppCompatActivity() {
 
         binding.Adminfind.setOnClickListener {
             try {
-                val id = binding.AdminseOt.text.toString().substring(0,2) + binding.AdminseKu.text.toString().substring(0,2)
-                val data = binding.AdminseData.text.toString()
+                if( !binding.AdminseOt.text.isEmpty() && !binding.AdminseData.text.isEmpty() && !binding.AdminseKu.text.isEmpty() ) {
+                    val id = binding.AdminseOt.text.toString()
+                        .substring(0, 2) + binding.AdminseKu.text.toString().substring(0, 2)
+                    val data = binding.AdminseData.text.toString()
 
-                val intent = Intent(this,AdminListTime::class.java)
-                intent.putExtra("id",id)
-                intent.putExtra("data",data)
-                startActivity(intent)
+                    val intent = Intent(this, AdminListTime::class.java)
+                    intent.putExtra("id", id)
+                    intent.putExtra("data", data)
+                    startActivity(intent)
+                }
+                else{
+                    Toast.makeText(this,"Введите все данные в поля", Toast.LENGTH_LONG).show()
+                }
 
             }catch (ex:Exception){
                 Toast.makeText(this,"Проверьте поля", Toast.LENGTH_LONG).show()

@@ -3,21 +3,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="#FF6347"
     tools:context=".SignFragment">
     <LinearLayout
+
         android:layout_gravity="center"
         android:layout_width="295dp"
         android:layout_height="wrap_content"
 
         android:orientation="vertical"
-        android:background="@color/white">
+        android:background="#7FFFD4">
 
         <EditText
-
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_height="35dp"
             android:id="@+id/phone_sign"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
 
 
             android:ems="10"
@@ -25,9 +29,12 @@
             android:inputType="textPersonName" />
 
         <EditText
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_height="35dp"
             android:id="@+id/pass_sign"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Пароль"
             android:inputType="textPersonName"
@@ -39,8 +46,8 @@
             android:id="@+id/sign_sign"
             android:layout_gravity="center"
             android:layout_width="170dp"
-            android:background="#2000ff"
-            android:textColor="@color/white"
+            android:background="#F4A460"
+            android:textColor="@color/black"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
 

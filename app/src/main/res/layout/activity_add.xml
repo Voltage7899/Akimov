@@ -4,12 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FF6347"
     tools:context=".Add">
 
     <EditText
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_height="35dp"
         android:id="@+id/addFrom"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Откуда"
         android:inputType="textPersonName"
@@ -21,9 +25,12 @@
         app:layout_constraintVertical_bias="0.102" />
 
     <EditText
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_height="35dp"
         android:id="@+id/addToo"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Куда"
         android:inputType="textPersonName"
@@ -35,12 +42,15 @@
         app:layout_constraintVertical_bias="0.237" />
 
     <EditText
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_height="35dp"
         android:id="@+id/addStartTime"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Время старта"
-        android:inputType="textPersonName"
+        android:inputType="time"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.482"
@@ -49,12 +59,15 @@
         app:layout_constraintVertical_bias="0.352" />
 
     <EditText
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_height="35dp"
         android:id="@+id/addFinishTime"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Время конца"
-        android:inputType="textPersonName"
+        android:inputType="time"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -63,12 +76,15 @@
         app:layout_constraintVertical_bias="0.463" />
 
     <EditText
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_height="35dp"
         android:id="@+id/addData"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Дата"
-        android:inputType="textPersonName"
+        android:inputType="date"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -81,6 +97,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Добавить"
+        android:background="#7FFFD4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

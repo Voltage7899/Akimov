@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#7FFFD4"
     tools:context=".Sign">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:background="@color/white"
+        android:background="#F4A460"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,9 +19,13 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_height="35dp"
             android:id="@+id/AdminseOt"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:ems="10"
@@ -34,9 +39,13 @@
             app:layout_constraintVertical_bias="0.131" />
 
         <EditText
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_height="35dp"
             android:id="@+id/AdminseKu"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:ems="10"
@@ -50,9 +59,13 @@
             app:layout_constraintVertical_bias="0.234" />
 
         <EditText
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_height="35dp"
             android:id="@+id/AdminseData"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:ems="10"
@@ -66,6 +79,7 @@
             app:layout_constraintVertical_bias="0.345" />
 
         <Button
+            android:background="#FF6347"
             android:id="@+id/Adminfind"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -78,6 +92,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
+            android:background="#FF6347"
             android:id="@+id/AdmincreateRace"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

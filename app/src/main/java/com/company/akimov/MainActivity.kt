@@ -15,13 +15,19 @@ class MainActivity : AppCompatActivity() {
 
         binding.find.setOnClickListener {
             try {
-                val id = binding.seOt.text.toString().substring(0,2) + binding.seKu.text.toString().substring(0,2)
-                val data = binding.seData.text.toString()
+                if( !binding.seOt.text.isEmpty() && !binding.seData.text.isEmpty() && !binding.seKu.text.isEmpty() ){
+                    val id = binding.seOt.text.toString().substring(0,2) + binding.seKu.text.toString().substring(0,2)
+                    val data = binding.seData.text.toString()
 
-                val intent = Intent(this,ListTime::class.java)
-                intent.putExtra("id",id)
-                intent.putExtra("data",data)
-                startActivity(intent)
+                    val intent = Intent(this,ListTime::class.java)
+                    intent.putExtra("id",id)
+                    intent.putExtra("data",data)
+                    startActivity(intent)
+                }
+                else{
+                    Toast.makeText(this,"Введите все данные в поля", Toast.LENGTH_LONG).show()
+                }
+
 
             }catch (ex:Exception){
                 Toast.makeText(this,"Проверьте поля", Toast.LENGTH_LONG).show()
